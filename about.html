@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="src/assets/image/avatar/favicon.png">
+    <link rel="stylesheet" href="src/assets/style/css/index-c0c31320795846.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <title>About - Portfolio Anugrah Prastyo</title>
+</head>
+<body class="bg-white text-slate-800 dark:bg-slate-900 dark:text-white transition-colors">
+    <!-- Header Section Start -->
+    <header id="header" class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container flex justify-between mx-auto px-4 lg:max-w-7xl">
+            <div class="flex items-center order-2 md:order-1">
+                <a href="/" class="p-1 font-semibold text-lg text-slate-900 py-3 dark:text-white">
+                    AP<span class="-ml-0 text-primary dark:text-teal-200">.</span>
+                </a>
+            </div>
+            <nav class="flex flex-row gap-4 items-center order-1">
+                <button id="bars" class="order-2 text-slate-800 text-lg block items-center md:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 lg:h-6 lg:w-6 scale-90 text-slate-800 dark:text-white" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12" />
+                    </svg>                                        
+                </button>
+                <a href="/" class="hidden md:block lg:inline-flex items-center gap-1 px-3 py-2 text-sm font-medium text-slate-500 active:text-slate-800 hover:text-slate-800 dark:text-white hover:dark:text-teal-300">Home</a>
+                <a href="/projects" class="hidden md:block lg:inline-flex items-center gap-1 px-3 py-2 text-sm font-medium text-slate-500 active:text-slate-800 hover:text-slate-800 dark:text-white hover:dark:text-teal-300">Projects</a>
+                <a href="/about" class="hidden md:block lg:inline-flex items-center gap-1 px-3 py-2 text-sm font-medium text-slate-500 active:text-slate-800 hover:text-slate-800 dark:text-white hover:dark:text-teal-300">About</a>
+                <a href="/contact" class="hidden md:block lg:inline-flex items-center gap-1 px-3 py-2 text-sm font-medium text-slate-500 active:text-slate-800 hover:text-slate-800 dark:text-white hover:dark:text-teal-300">Contact</a>
+            </nav>
+            <div class="flex gap-2 items-center order-2">
+                <button id="darkmode" class="text-lg items-center order-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 lg:h-6 lg:w-6 scale-[.80] lg:scale-110 sun" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2.25a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75ZM7.5 12a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM18.894 6.166a.75.75 0 0 0-1.06-1.06l-1.591 1.59a.75.75 0 1 0 1.06 1.061l1.591-1.59ZM21.75 12a.75.75 0 0 1-.75.75h-2.25a.75.75 0 0 1 0-1.5H21a.75.75 0 0 1 .75.75ZM17.834 18.894a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 1 0-1.061 1.06l1.59 1.591ZM12 18a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-1.5 0v-2.25A.75.75 0 0 1 12 18ZM7.758 17.303a.75.75 0 0 0-1.061-1.06l-1.591 1.59a.75.75 0 0 0 1.06 1.061l1.591-1.59ZM6 12a.75.75 0 0 1-.75.75H3a.75.75 0 0 1 0-1.5h2.25A.75.75 0 0 1 6 12ZM6.697 7.757a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 0 0-1.061 1.06l1.59 1.591Z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 lg:h-6 lg:w-6 scale-[.60] lg:scale-90 moon" viewBox="0 0 24 24" fill="currentColor">
+                        <path fill-rule="evenodd" d="M9.528 1.718a.75.75 0 0 1 .162.819A8.97 8.97 0 0 0 9 6a9 9 0 0 0 9 9 8.97 8.97 0 0 0 3.463-.69.75.75 0 0 1 .981.98 10.503 10.503 0 0 1-9.694 6.46c-5.799 0-10.5-4.7-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 0 1 .818.162Z" clip-rule="evenodd" />
+                    </svg>                        
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+    <!-- Sidebar Menu Start-->
+    <div id="sidebar" class="hidden fixed left-0 top-0 bg-black bg-opacity-50 w-screen justify-center items-center lg:hidden z-50">
+        <div class="p-4 bg-white text-gray-100 text-xl text-center w-3/4 h-screen overflow-y-auto font-semibold rounded-tr-xl rounded-br-lg top-0 bottom-0 lg:left-0 dark:bg-dark">
+            <div class="px-5 mt-1 flex items-center justify-between">
+                <a href="/" class="font-semibold text-lg text-primary py-3 dark:text-white">
+                    Anugrah Prastyo<span class="-ml-0 text-slate-800 dark:text-teal-200">.</span>
+                </a>
+                <svg xmlns="http://www.w3.org/2000/svg" id="close" class="h-8 w-8 scale-75 cursor-pointer text-dark dark:text-white" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                </svg>                  
+            </div>
+            <hr class="my-2 text-gray-600">
+            <nav class="my-4">
+                <a href="/" class="p-2.5 flex items-center text-[15px] rounded-lg px-4 hover:bg-slate-400/25 text-slate-800 dark:text-white">Home</a>
+                <a href="/projects" class="p-2.5 flex items-center text-[15px] rounded-lg px-4 hover:bg-slate-400/25 text-slate-800 dark:text-white">Projects</a>
+                <a href="/about" class="p-2.5 flex items-center text-[15px] rounded-lg px-4 hover:bg-slate-400/25 text-slate-800 dark:text-white">About</a>
+                <a href="/contact" class="p-2.5 flex items-center text-[15px] rounded-lg px-4 hover:bg-slate-400/25 text-slate-800 dark:text-white">Contact</a>
+            </nav>
+            <hr class="my-2 text-gray-600">
+            <!-- Footer Section Start -->
+            <div class="p-2.5 px-4 mt-auto">
+                <div class="flex flex-wrap items-center gap-4 py-3">
+                    <a href="https://github.com/anugrahp13" target="_blank" class="w-9 h-9 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:text-white hover:bg-primary dark:border-white hover:dark:border-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" stroke-width="2" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/anugrah-prastyo/" target="_blank" class="w-9 h-9 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:text-white hover:bg-primary dark:border-white hover:dark:border-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 448 512" stroke-width="2" fill="currentColor"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+                    </a>
+                </div>
+                <p class="text-left font-light text-sm text-slate-500 dark:text-white">© 2024 - Developed by <span class="hover:text-primary font-bold">Anugrah Prastyo</span>.</p>
+            </div>
+            <!-- Footer Section End -->
+        </div>
+    </div>
+    <!-- Sidebar Menu End -->
+    
+    <div id="top"></div>
+    <section class="my-52 dark:bg-dark">
+        <div class="container mx-auto px-4 py-24 lg:max-w-7xl flex items-center justify-center">
+            <div class="max-w-2xl text-center">
+                <h1 class="text-sm text-primary dark:text-primary grid gap-1">
+                    <span class="font-semibold tracking-[.30em] uppercase text-base">Case Study</span>
+                    <span class="block font-bold text-dark mb-10 text-4xl lg:text-5xl dark:text-white">More About Me</span>
+                </h1>
+                <div class="flex justify-center items-center mt-9">
+                    <img src="src/assets/image/avatar/avatar.png" class="border border-slate-700 rounded-full" data-size="auto" alt="Anugrah Prastyo">
+                </div>
+                <div class="text-center mt-3 grid gap-1">
+                    <div class="text-3xl font-semibold">Anugrah Prastyo</div>
+                    <p class="font-light text-base text-secondary dark:text-white">Front-end Web Developer</p>
+                </div>
+                <div class="grid gap-12 mt-8">
+                    <div class="text-left grid gap-4 mb-5">
+                        <div class="text-2xl font-semibold">👨‍💻 My Profile</div>
+                        <p class="font-light text-base text-secondary dark:text-white lg:text-base">As a Front-end Web Developer, I have a strong desire to create beautiful, simple, and user-friendly websites. With over 1 year of experience as a freelancer, I have developed a solid understanding of HTML, CSS, JavaScript, and frameworks like Bootstrap and TailwindCSS.</p>
+                        <p class="font-light text-base text-secondary dark:text-white lg:text-base">
+                            My skills include creating websites and ensuring that they are responsive for all devices and screen sizes. I am always looking for new things and opportunities to further develop my skills as a front-end web developer. If you are looking for someone who has a strong work ethic and a passion for creating beautiful websites, or if you want to entrust website creation to me, please feel free to contact me.</p>
+                    </div>
+                    <div class="text-left grid gap-4 mb-5">
+                        <div class="text-2xl font-semibold">📞 Connect with Me</div>
+                        <div class="text-left grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+                            <a href="mailto:anugrahprastyo13@gmail.com" class="gap-3 p-4 shadow-md bg-white hover:dark:shadow-slate-700/50 dark:bg-slate-800 rounded-xl cursor-pointer active:scale-95 active:shadow-sm transition-all hover:shadow-lg aos-init aos-animate" data-aos="flip-left" data-aos-duration="1000">
+                                <div class="text-center flex justify-center items-center gap-3 mb-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-[1.10rem] h-[1.10rem]" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0L1.5 8.67Z" />
+                                        <path d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z" />
+                                    </svg>
+                                    <h3 class="text-xl font-bold">Email</h3>
+                                </div>
+                                <p class="text-sm text-center line-clamp-2 text-slate-700 dark:text-slate-300">anugrahprastyo13@gmail.com</p>
+                            </a>
+                            <a href="https://www.linkedin.com/in/anugrah-prastyo/" class="gap-3 p-4 shadow-md bg-white hover:dark:shadow-slate-700/50 dark:bg-slate-800 rounded-xl cursor-pointer active:scale-95 active:shadow-sm transition-all hover:shadow-lg aos-init aos-animate" data-aos="flip-left" data-aos-duration="1000">
+                                <div class="text-center flex justify-center items-center gap-3 mb-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 448 512" stroke-width="2" fill="currentColor"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+                                    <h3 class="text-xl font-bold">Linkedin</h3>
+                                </div>
+                                <p class="text-sm text-center line-clamp-2 text-slate-700 dark:text-slate-300">Anugrah Prastyo</p>
+                            </a>
+                            <a href="https://github.com/anugrahp13" class="gap-3 p-4 shadow-md bg-white hover:dark:shadow-slate-700/50 dark:bg-slate-800 rounded-xl cursor-pointer active:scale-95 active:shadow-sm transition-all hover:shadow-lg aos-init aos-animate" data-aos="flip-left" data-aos-duration="1000">
+                                <div class="text-center flex justify-center items-center gap-3 mb-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" stroke-width="2" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                                    <h3 class="text-xl font-bold">GitHub</h3>
+                                </div>
+                                <p class="text-sm text-center line-clamp-2 text-slate-700 dark:text-slate-300">@anugrahp13</p>
+                            </a>
+                            <a href="https://wa.me/6281298572424" class="gap-3 p-4 shadow-md bg-white hover:dark:shadow-slate-700/50 dark:bg-slate-800 rounded-xl cursor-pointer active:scale-95 active:shadow-sm transition-all hover:shadow-lg">
+                                <div class="text-center flex justify-center items-center gap-3 mb-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" stroke-width="2" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                                    <h3 class="text-xl font-bold">Whatapp</h3>
+                                </div>
+                                <p class="text-sm text-center line-clamp-2 text-slate-700 dark:text-slate-300">Personal</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="text-left grid gap-4 mb-5">
+                        <div class="text-2xl font-semibold">⚡ Tech Stack</div>
+                        <div class="text-left grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+                            <div class="inline-flex gap-3 p-4 shadow-md bg-white hover:dark:shadow-slate-700/50 dark:bg-slate-800 rounded-xl cursor-pointer active:scale-95 active:shadow-sm transition-all hover:shadow-lg">
+                                <div>
+                                    <img src="src/assets/image/skills/html5.svg" class="w-10 h-10" alt="HTML5">
+                                </div>
+                                <div>
+                                    <h3 class="font-medium text-sm line-clamp-1 mb-1">HTML</h3>
+                                    <p class="text-xs line-clamp-2 text-slate-700 dark:text-slate-300">Advanced</p>
+                                </div>
+                            </div>
+                            <div class="inline-flex gap-3 p-4 shadow-md bg-white hover:dark:shadow-slate-700/50 dark:bg-slate-800 rounded-xl cursor-pointer active:scale-95 active:shadow-sm transition-all hover:shadow-lg">
+                                <div>
+                                    <img src="src/assets/image/skills/css3.svg" class="w-10 h-10" alt="CSS3">
+                                </div>
+                                <div>
+                                    <h3 class="font-medium text-sm line-clamp-1 mb-1">CSS</h3>
+                                    <p class="text-xs line-clamp-2 text-slate-700 dark:text-slate-300">Advanced</p>
+                                </div>
+                            </div>
+                            <div class="inline-flex gap-3 p-4 shadow-md bg-white hover:dark:shadow-slate-700/50 dark:bg-slate-800 rounded-xl cursor-pointer active:scale-95 active:shadow-sm transition-all hover:shadow-lg">
+                                <div>
+                                    <img src="src/assets/image/skills/javascript.svg" class="w-10 h-10" alt="JavaScript">
+                                </div>
+                                <div>
+                                    <h3 class="font-medium text-sm line-clamp-1 mb-1">JavaScript</h3>
+                                    <p class="text-xs line-clamp-2 text-slate-700 dark:text-slate-300">Intermediate</p>
+                                </div>
+                            </div>
+                            <div class="inline-flex gap-3 p-4 shadow-md bg-white hover:dark:shadow-slate-700/50 dark:bg-slate-800 rounded-xl cursor-pointer active:scale-95 active:shadow-sm transition-all hover:shadow-lg">
+                                <div>
+                                    <img src="src/assets/image/skills/typescript.svg" class="w-10 h-10" alt="TypeScript">
+                                </div>
+                                <div>
+                                    <h3 class="font-medium text-sm line-clamp-1 mb-1">TypeScript</h3>
+                                    <p class="text-xs line-clamp-2 text-slate-700 dark:text-slate-300">Novice</p>
+                                </div>
+                            </div>
+                            <div class="inline-flex gap-3 p-4 shadow-md bg-white hover:dark:shadow-slate-700/50 dark:bg-slate-800 rounded-xl cursor-pointer active:scale-95 active:shadow-sm transition-all hover:shadow-lg">
+                                <div>
+                                    <img src="src/assets/image/skills/react-js.svg" class="w-10 h-10" alt="ReactJS">
+                                </div>
+                                <div>
+                                    <h3 class="font-medium text-sm line-clamp-1 mb-1">ReactJS</h3>
+                                    <p class="text-xs line-clamp-2 text-slate-700 dark:text-slate-300">Novice</p>
+                                </div>
+                            </div>
+                            <div class="inline-flex gap-3 p-4 shadow-md bg-white hover:dark:shadow-slate-700/50 dark:bg-slate-800 rounded-xl cursor-pointer active:scale-95 active:shadow-sm transition-all hover:shadow-lg">
+                                <div>
+                                    <img src="src/assets/image/skills/bootstrap.svg" class="w-10 h-10" alt="Bootstrap">
+                                </div>
+                                <div>
+                                    <h3 class="font-medium text-sm line-clamp-1 mb-1">Bootstrap</h3>
+                                    <p class="text-xs line-clamp-2 text-slate-700 dark:text-slate-300">Intermediate</p>
+                                </div>
+                            </div>
+                            <div class="inline-flex gap-3 p-4 shadow-md bg-white hover:dark:shadow-slate-700/50 dark:bg-slate-800 rounded-xl cursor-pointer active:scale-95 active:shadow-sm transition-all hover:shadow-lg">
+                                <div>
+                                    <img src="src/assets/image/skills/tailwindcss.svg" class="w-10 h-10" alt="TailwindCSS">
+                                </div>
+                                <div>
+                                    <h3 class="font-medium text-sm line-clamp-1 mb-1">TailwindCSS</h3>
+                                    <p class="text-xs line-clamp-2 text-slate-700 dark:text-slate-300">Intermediate</p>
+                                </div>
+                            </div>
+                            <div class="inline-flex gap-3 p-4 shadow-md bg-white hover:dark:shadow-slate-700/50 dark:bg-slate-800 rounded-xl cursor-pointer active:scale-95 active:shadow-sm transition-all hover:shadow-lg">
+                                <div>
+                                    <img src="src/assets/image/skills/figma.svg" class="w-10 h-120" alt="Figma">
+                                </div>
+                                <div>
+                                    <h3 class="font-medium text-sm line-clamp-1 mb-1">Figma</h3>
+                                    <p class="text-xs line-clamp-2 text-slate-700 dark:text-slate-300">Intermediate</p>
+                                </div>
+                            </div>
+                            <div class="inline-flex gap-3 p-4 shadow-md bg-white hover:dark:shadow-slate-700/50 dark:bg-slate-800 rounded-xl cursor-pointer active:scale-95 active:shadow-sm transition-all hover:shadow-lg">
+                                <div>
+                                    <img src="src/assets/image/skills/git.svg" class="w-10 h-10" alt="Git">
+                                </div>
+                                <div>
+                                    <h3 class="font-medium text-sm line-clamp-1 mb-1">Git</h3>
+                                    <p class="text-xs line-clamp-2 text-slate-700 dark:text-slate-300">Novice</p>
+                                </div>
+                            </div>
+                            <div class="inline-flex gap-3 p-4 shadow-md bg-white hover:dark:shadow-slate-700/50 dark:bg-slate-800 rounded-xl cursor-pointer active:scale-95 active:shadow-sm transition-all hover:shadow-lg">
+                                <div>
+                                    <img src="src/assets/image/skills/github.svg" class="w-10 h-10" alt="GitHub">
+                                </div>
+                                <div>
+                                    <h3 class="font-medium text-sm line-clamp-1 mb-1">Github</h3>
+                                    <p class="text-xs line-clamp-2 text-slate-700 dark:text-slate-300">Novice</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-left grid gap-4 mb-5">
+                        <div class="text-2xl font-semibold">💼 Work Experiences</div>
+                        <div class="text-left grid grid-cols-1 gap-5">
+                            <div class="lg:flex gap-3">
+                                <div>
+                                    <img src="src/assets/image/work/elitery.png" class="w-10 h-10" alt="Elitery">
+                                </div>
+                                <div class="mt-1 lg:mt-0">
+                                    <h3 class="font-medium text-base line-clamp-1 mb-1">DevOps Engineer at <span class="text-primary font-bold">PT. Data Sinergitam Jaya (Elitery)</span></h3>
+                                    <p class="text-xs line-clamp-2 gap-2 text-slate-700 dark:text-slate-300"><span class="font-bold rounded-lg px-3 text-primary bg-teal-200">Full Time</span> | January 2022 - August 2023 - Cilandak, Jakarta Selatan</p>
+                                    <ul class="font-light text-sm text-secondary dark:text-white list-disc mt-4 ml-5">
+                                        <li>Solved the problem of not being able to back up data using Acronis to improve the security of company data.</li>
+                                        <li>Solved the problem of unable to recover lost data, using Acronis to restore important data.</li>
+                                        <li>Worked on setting up the Acronis agent so that it could be used to schedule backups of important corporate data on the main server.</li>
+                                        <li>Moved critical enterprise data server data locally using Acronis, a VMware application to prevent corporate data from being lost.</li>
+                                        <li>Made cloud servers for customers using applications such as GCP, AWS to improve security and equality in managing data.</li>
+                                        <li>Resolved the Acronis backup process's malfunction by employing a subscription service to provide assistance as soon as feasible.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="lg:flex gap-3">
+                                <div>
+                                    <img src="src/assets/image/work/elitery.png" class="w-10 h-10" alt="Elitery">
+                                </div>
+                                <div class="mt-1 lg:mt-0">
+                                    <h3 class="font-medium text-base line-clamp-1 mb-1">IT Operation at <span class="text-primary font-bold">PT. Data Sinergitam Jaya (Elitery)</span></h3>
+                                    <p class="text-xs line-clamp-2 gap-2 text-slate-700 dark:text-slate-300"><span class="font-bold rounded-lg px-3 text-primary bg-teal-200">Full Time</span> | January 2021 - January 2022 - Cilandak, Jakarta Selatan</p>
+                                    <ul class="font-light text-sm text-secondary dark:text-white list-disc mt-4 ml-5">
+                                        <li>Resolved issue where users were unable to print data from user shares in Azure apps; customers were able to print data by utilizing dedicated users.</li>
+                                        <li>Monitored user traffic in Azure applications, go to the monitor menu so you can monitor user traffic in real-time.</li>
+                                        <li>Created a new customer in the Azure application, select the Customers option to allow new users to use the Azure application. </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="lg:flex gap-3">
+                                <div>
+                                    <img src="src/assets/image/work/lp3i.png" class="w-10 h-10" alt="LP3I">
+                                </div>
+                                <div class="mt-1 lg:mt-0">
+                                    <h3 class="font-medium text-base line-clamp-1 mb-1">IT Staff at <span class="text-primary font-bold">Politeknik LP3I Jakarta</span></h3>
+                                    <p class="text-xs line-clamp-2 gap-2 text-slate-700 dark:text-slate-300"><span class="font-bold rounded-lg px-3 text-primary bg-teal-200">Full Time</span> | January 2017 - February 2018 - Pondok Gede, Jakarta Timur</p>
+                                    <ul class="font-light text-sm text-secondary dark:text-white list-disc mt-4 ml-5">
+                                        <li>Created an attendance system for lecturers and employees utilizing HTML, CSS, PHP, JavaScript, and MySQL to facilitate the finance department's salary computation.</li>
+                                        <li>Created network configurations at LP3I Pondok Gede Campus with a Mikrotik RB1100 AHX2 to divide IP addresses for staff, instructors, and students.</li>
+                                        <li>Installed the teaching requirements application utilizing the original program to protect student data from viruses.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-left grid gap-4 mb-5">
+                        <div class="text-2xl font-semibold">🎓 Educations</div>
+                        <div class="text-left grid grid-cols-1 gap-5">
+                            <div class="lg:flex gap-3">
+                                <div>
+                                    <img src="src/assets/image/work/lp3i.png" class="w-10 h-10" alt="LP3I">
+                                </div>
+                                <div class="mt-1 lg:mt-0">
+                                    <h3 class="font-medium text-base line-clamp-1 mb-1">Informatics Technology at <span class="text-primary font-bold">Politeknik LP3I Jakarta</span></h3>
+                                    <p class="text-xs line-clamp-2 gap-2 text-slate-700 dark:text-slate-300"><span class="font-bold rounded-lg px-3 text-primary bg-teal-200">Diploma III</span> | 2013 - 2016 - Pondok Gede, Jakarta Timur</p>
+                                    <p class="text-base font-bold text-slate-900 dark:text-slate-300 mt-1">IPK: 3.05</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-left grid gap-4">
+                        <div class="text-2xl font-semibold">📜 Certifications, Courses or Bootcamp</div>
+                        <div class="text-left grid grid-cols-1 gap-5">
+                            <div class="lg:flex gap-3">
+                                <div class="flex">
+                                    <img src="src/assets/image/work/rise.png" class="w-10 h-10" alt="HariSenin.com">
+                                    <a href="#" target="_blank" class="bg-primary text-white font-bold p-1 rounded-full absolute top-2 right-0 lg:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 -rotate-45 hover:rotate-0 transition duration-300 ease-in-out"  viewBox="0 0 448 512" stroke-width="2" fill="currentColor"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+                                    </a>
+                                </div>
+                                <div class="mt-1 lg:mt-0">
+                                    <div class="font-medium text-base line-clamp-3 mb-1 flex gap-2">Bootcamp Full Stack Developer
+                                        <a href="#" target="_blank" class="bg-primary text-white font-bold p-1 rounded-full hidden lg:block"><svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 -rotate-45 hover:rotate-0 transition duration-300 ease-in-out"  viewBox="0 0 448 512" stroke-width="2" fill="currentColor"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+                                        </a>
+                                    </div>
+                                    <div class="flex justify-start items-center gap-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="w-4 h-4" stroke-width="2" fill="currentColor">
+                                            <path d="M48 0C21.5 0 0 21.5 0 48V464c0 26.5 21.5 48 48 48h96V432c0-26.5 21.5-48 48-48s48 21.5 48 48v80h96c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48H48zM64 240c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V240zm112-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V240c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H272c-8.8 0-16-7.2-16-16V240zM80 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V112zM272 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H272c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16z"/>
+                                        </svg>
+                                        <p class="text-xs line-clamp-2 text-slate-700 dark:text-slate-300 mr-2">HariSenin.com</p>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4" stroke-width="2" fill="currentColor">
+                                            <path d="M128 0c17.7 0 32 14.3 32 32V64H288V32c0-17.7 14.3-32 32-32s32 14.3 32 32V64h48c26.5 0 48 21.5 48 48v48H0V112C0 85.5 21.5 64 48 64H96V32c0-17.7 14.3-32 32-32zM0 192H448V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V192zm64 80v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm128 0v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H208c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H336zM64 400v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H208zm112 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H336c-8.8 0-16 7.2-16 16z"/>
+                                        </svg>
+                                        <p class="text-xs text-center line-clamp-2 text-slate-700 dark:text-slate-300">February 2024 - Present</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lg:flex gap-3">
+                                <div class="flex">
+                                    <img src="src/assets/image/work/codepolitan.png" class="w-10 h-10" alt="CodePolitan">
+                                    <a href="https://www.codepolitan.com/c/KFOTV8W/" target="_blank" class="bg-primary text-white font-bold p-1 rounded-full absolute top-2 right-0 lg:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 -rotate-45 hover:rotate-0 transition duration-300 ease-in-out"  viewBox="0 0 448 512" stroke-width="2" fill="currentColor"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+                                    </a>
+                                </div>
+                                <div class="mt-1 lg:mt-0">
+                                    <div class="font-medium text-base line-clamp-3 mb-1 flex gap-2">Kelas Belajar JavaScript 
+                                        <a href="https://www.codepolitan.com/c/KFOTV8W/" target="_blank" class="bg-primary text-white font-bold p-1 rounded-full hidden lg:block"><svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 -rotate-45 hover:rotate-0 transition duration-300 ease-in-out"  viewBox="0 0 448 512" stroke-width="2" fill="currentColor"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+                                        </a>
+                                    </div>
+                                    <div class="flex justify-start items-center gap-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="w-4 h-4" stroke-width="2" fill="currentColor">
+                                            <path d="M48 0C21.5 0 0 21.5 0 48V464c0 26.5 21.5 48 48 48h96V432c0-26.5 21.5-48 48-48s48 21.5 48 48v80h96c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48H48zM64 240c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V240zm112-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V240c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H272c-8.8 0-16-7.2-16-16V240zM80 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V112zM272 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H272c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16z"/>
+                                        </svg>
+                                        <p class="text-xs line-clamp-2 text-slate-700 dark:text-slate-300 mr-2">CodePolitan</p>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4" stroke-width="2" fill="currentColor">
+                                            <path d="M128 0c17.7 0 32 14.3 32 32V64H288V32c0-17.7 14.3-32 32-32s32 14.3 32 32V64h48c26.5 0 48 21.5 48 48v48H0V112C0 85.5 21.5 64 48 64H96V32c0-17.7 14.3-32 32-32zM0 192H448V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V192zm64 80v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm128 0v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H208c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H336zM64 400v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H208zm112 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H336c-8.8 0-16 7.2-16 16z"/>
+                                        </svg>
+                                        <p class="text-xs text-center line-clamp-2 text-slate-700 dark:text-slate-300">January 2024 - 2027</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lg:flex gap-3">
+                                <div class="flex">
+                                    <img src="src/assets/image/work/codepolitan.png" class="w-10 h-10" alt="CodePolitan">
+                                    <a href="https://www.codepolitan.com/c/LWWU6OB/" target="_blank" class="bg-primary text-white font-bold p-1 rounded-full absolute top-2 right-0 lg:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 -rotate-45 hover:rotate-0 transition duration-300 ease-in-out"  viewBox="0 0 448 512" stroke-width="2" fill="currentColor"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+                                    </a>
+                                </div>
+                                <div class="mt-1 lg:mt-0">
+                                    <div class="font-medium text-base line-clamp-3 mb-1 flex gap-2">Kelas Belajar Dasar CSS
+                                        <a href="https://www.codepolitan.com/c/LWWU6OB/" target="_blank" class="bg-primary text-white font-bold p-1 rounded-full hidden lg:block"><svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 -rotate-45 hover:rotate-0 transition duration-300 ease-in-out"  viewBox="0 0 448 512" stroke-width="2" fill="currentColor"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+                                        </a>
+                                    </div>
+                                    <div class="flex justify-start items-center gap-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="w-4 h-4" stroke-width="2" fill="currentColor">
+                                            <path d="M48 0C21.5 0 0 21.5 0 48V464c0 26.5 21.5 48 48 48h96V432c0-26.5 21.5-48 48-48s48 21.5 48 48v80h96c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48H48zM64 240c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V240zm112-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V240c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H272c-8.8 0-16-7.2-16-16V240zM80 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V112zM272 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H272c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16z"/>
+                                        </svg>
+                                        <p class="text-xs line-clamp-2 text-slate-700 dark:text-slate-300 mr-2">CodePolitan</p>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4" stroke-width="2" fill="currentColor">
+                                            <path d="M128 0c17.7 0 32 14.3 32 32V64H288V32c0-17.7 14.3-32 32-32s32 14.3 32 32V64h48c26.5 0 48 21.5 48 48v48H0V112C0 85.5 21.5 64 48 64H96V32c0-17.7 14.3-32 32-32zM0 192H448V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V192zm64 80v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm128 0v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H208c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H336zM64 400v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H208zm112 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H336c-8.8 0-16 7.2-16 16z"/>
+                                        </svg>
+                                        <p class="text-xs text-center line-clamp-2 text-slate-700 dark:text-slate-300">Dec 2023 - 2026</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lg:flex gap-3">
+                                <div class="flex">
+                                    <img src="src/assets/image/work/codepolitan.png" class="w-10 h-10" alt="CodePolitan">
+                                    <a href="https://www.codepolitan.com/c/UOV7QBG/" target="_blank" class="bg-primary text-white font-bold p-1 rounded-full absolute top-2 right-0 lg:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 -rotate-45 hover:rotate-0 transition duration-300 ease-in-out"  viewBox="0 0 448 512" stroke-width="2" fill="currentColor"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+                                    </a>
+                                </div>
+                                <div class="mt-1 lg:mt-0">
+                                    <div class="font-medium text-base line-clamp-3 mb-1 flex gap-2">Kelas Belajar GIT Dasar
+                                        <a href="https://www.codepolitan.com/c/UOV7QBG/" target="_blank" class="bg-primary text-white font-bold p-1 rounded-full hidden lg:block"><svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 -rotate-45 hover:rotate-0 transition duration-300 ease-in-out"  viewBox="0 0 448 512" stroke-width="2" fill="currentColor"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+                                        </a>
+                                    </div>
+                                    <div class="flex justify-start items-center gap-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="w-4 h-4" stroke-width="2" fill="currentColor">
+                                            <path d="M48 0C21.5 0 0 21.5 0 48V464c0 26.5 21.5 48 48 48h96V432c0-26.5 21.5-48 48-48s48 21.5 48 48v80h96c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48H48zM64 240c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V240zm112-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V240c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H272c-8.8 0-16-7.2-16-16V240zM80 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V112zM272 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H272c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16z"/>
+                                        </svg>
+                                        <p class="text-xs line-clamp-2 text-slate-700 dark:text-slate-300 mr-2">CodePolitan</p>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4" stroke-width="2" fill="currentColor">
+                                            <path d="M128 0c17.7 0 32 14.3 32 32V64H288V32c0-17.7 14.3-32 32-32s32 14.3 32 32V64h48c26.5 0 48 21.5 48 48v48H0V112C0 85.5 21.5 64 48 64H96V32c0-17.7 14.3-32 32-32zM0 192H448V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V192zm64 80v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm128 0v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H208c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H336zM64 400v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H208zm112 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H336c-8.8 0-16 7.2-16 16z"/>
+                                        </svg>
+                                        <p class="text-xs text-center line-clamp-2 text-slate-700 dark:text-slate-300">Nov 2023 - 2026</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lg:flex gap-3">
+                                <div class="flex">
+                                    <img src="src/assets/image/work/codepolitan.png" class="w-10 h-10" alt="CodePolitan">
+                                    <a href="https://www.codepolitan.com/c/TQENGLV/" target="_blank" class="bg-primary text-white font-bold p-1 rounded-full absolute top-2 right-0 lg:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 -rotate-45 hover:rotate-0 transition duration-300 ease-in-out"  viewBox="0 0 448 512" stroke-width="2" fill="currentColor"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+                                    </a>
+                                </div>
+                                <div class="mt-1 lg:mt-0">
+                                    <div class="font-medium text-base line-clamp-3 mb-1 flex gap-2">Kelas Belajar Menggunakan Terminal atau CMD untuk Development  
+                                        <a href="https://www.codepolitan.com/c/TQENGLV/" target="_blank" class="bg-primary text-white font-bold p-1 rounded-full hidden lg:block"><svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 -rotate-45 hover:rotate-0 transition duration-300 ease-in-out"  viewBox="0 0 448 512" stroke-width="2" fill="currentColor"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+                                        </a>
+                                    </div>
+                                    <div class="flex justify-start items-center gap-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="w-4 h-4" stroke-width="2" fill="currentColor">
+                                            <path d="M48 0C21.5 0 0 21.5 0 48V464c0 26.5 21.5 48 48 48h96V432c0-26.5 21.5-48 48-48s48 21.5 48 48v80h96c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48H48zM64 240c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V240zm112-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V240c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H272c-8.8 0-16-7.2-16-16V240zM80 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V112zM272 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H272c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16z"/>
+                                        </svg>
+                                        <p class="text-xs line-clamp-2 text-slate-700 dark:text-slate-300 mr-2">CodePolitan</p>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4" stroke-width="2" fill="currentColor">
+                                            <path d="M128 0c17.7 0 32 14.3 32 32V64H288V32c0-17.7 14.3-32 32-32s32 14.3 32 32V64h48c26.5 0 48 21.5 48 48v48H0V112C0 85.5 21.5 64 48 64H96V32c0-17.7 14.3-32 32-32zM0 192H448V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V192zm64 80v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm128 0v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H208c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H336zM64 400v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H208zm112 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H336c-8.8 0-16 7.2-16 16z"/>
+                                        </svg>
+                                        <p class="text-xs text-center line-clamp-2 text-slate-700 dark:text-slate-300">Jul 2023 - 2026</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lg:flex gap-3">
+                                <div class="flex">
+                                    <img src="src/assets/image/work/codepolitan.png" class="w-10 h-10" alt="CodePolitan">
+                                    <a href="https://www.codepolitan.com/c/FNC5JRB/" target="_blank" class="bg-primary text-white font-bold p-1 rounded-full absolute top-2 right-0 lg:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 -rotate-45 hover:rotate-0 transition duration-300 ease-in-out"  viewBox="0 0 448 512" stroke-width="2" fill="currentColor"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+                                    </a>
+                                </div>
+                                <div class="mt-1 lg:mt-0">
+                                    <div class="font-medium text-base line-clamp-3 mb-1 flex gap-2">Kelas Algoritma dan Pemrograman Dasar
+                                        <a href="https://www.codepolitan.com/c/FNC5JRB/" target="_blank" class="bg-primary text-white font-bold p-1 rounded-full hidden lg:block"><svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 -rotate-45 hover:rotate-0 transition duration-300 ease-in-out"  viewBox="0 0 448 512" stroke-width="2" fill="currentColor"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+                                        </a>
+                                    </div>
+                                    <div class="flex justify-start items-center gap-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="w-4 h-4" stroke-width="2" fill="currentColor">
+                                            <path d="M48 0C21.5 0 0 21.5 0 48V464c0 26.5 21.5 48 48 48h96V432c0-26.5 21.5-48 48-48s48 21.5 48 48v80h96c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48H48zM64 240c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V240zm112-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V240c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H272c-8.8 0-16-7.2-16-16V240zM80 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V112zM272 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H272c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16z"/>
+                                        </svg>
+                                        <p class="text-xs line-clamp-2 text-slate-700 dark:text-slate-300 mr-2">CodePolitan</p>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4" stroke-width="2" fill="currentColor">
+                                            <path d="M128 0c17.7 0 32 14.3 32 32V64H288V32c0-17.7 14.3-32 32-32s32 14.3 32 32V64h48c26.5 0 48 21.5 48 48v48H0V112C0 85.5 21.5 64 48 64H96V32c0-17.7 14.3-32 32-32zM0 192H448V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V192zm64 80v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm128 0v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H208c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H336zM64 400v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H208zm112 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H336c-8.8 0-16 7.2-16 16z"/>
+                                        </svg>
+                                        <p class="text-xs text-center line-clamp-2 text-slate-700 dark:text-slate-300">Jul 2023 - 2026</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lg:flex gap-3">
+                                <div class="flex">
+                                    <img src="src/assets/image/work/codepolitan.png" class="w-10 h-10" alt="CodePolitan">
+                                    <a href="https://www.codepolitan.com/c/STJNL9C/" target="_blank" class="bg-primary text-white font-bold p-1 rounded-full absolute top-2 right-0 lg:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 -rotate-45 hover:rotate-0 transition duration-300 ease-in-out"  viewBox="0 0 448 512" stroke-width="2" fill="currentColor"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+                                    </a>
+                                </div>
+                                <div class="mt-1 lg:mt-0">
+                                    <div class="font-medium text-base line-clamp-3 mb-1 flex gap-2">Kelas Mengenal Pemrograman Komputer
+                                        <a href="https://www.codepolitan.com/c/STJNL9C/" target="_blank" class="bg-primary text-white font-bold p-1 rounded-full hidden lg:block"><svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 -rotate-45 hover:rotate-0 transition duration-300 ease-in-out"  viewBox="0 0 448 512" stroke-width="2" fill="currentColor"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+                                        </a>
+                                    </div>
+                                    <div class="flex justify-start items-center gap-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="w-4 h-4" stroke-width="2" fill="currentColor">
+                                            <path d="M48 0C21.5 0 0 21.5 0 48V464c0 26.5 21.5 48 48 48h96V432c0-26.5 21.5-48 48-48s48 21.5 48 48v80h96c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48H48zM64 240c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V240zm112-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V240c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H272c-8.8 0-16-7.2-16-16V240zM80 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V112zM272 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H272c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16z"/>
+                                        </svg>
+                                        <p class="text-xs line-clamp-2 text-slate-700 dark:text-slate-300 mr-2">CodePolitan</p>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4" stroke-width="2" fill="currentColor">
+                                            <path d="M128 0c17.7 0 32 14.3 32 32V64H288V32c0-17.7 14.3-32 32-32s32 14.3 32 32V64h48c26.5 0 48 21.5 48 48v48H0V112C0 85.5 21.5 64 48 64H96V32c0-17.7 14.3-32 32-32zM0 192H448V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V192zm64 80v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm128 0v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H208c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H336zM64 400v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H208zm112 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H336c-8.8 0-16 7.2-16 16z"/>
+                                        </svg>
+                                        <p class="text-xs text-center line-clamp-2 text-slate-700 dark:text-slate-300">Jul 2023 - 2026</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section Start -->
+    <footer class="footer bg-dark py-6 dark:bg-slate-800">
+        <div class="container">
+            <div class="w-full pt-4">
+                <div class="flex items-center justify-center gap-4 mb-5">
+                    <a href="https://github.com/anugrahp13" class="w-9 h-9 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:text-white hover:bg-primary dark:border-white hover:dark:border-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" stroke-width="2" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/anugrah-prastyo/" class="w-9 h-9 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:text-white hover:bg-primary dark:border-white hover:dark:border-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 448 512" stroke-width="2" fill="currentColor"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+                    </a>
+                </div>
+                <p class="font-light text-sm text-slate-400 dark:text-slate-300 text-center">© 2024 - Developed by <span class="font-bold text-primary">Anugrah Prastyo</span>.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Back to top Start -->
+    <a href="#top" id="totop" class="fixed bottom-4 right-4 z-40 hidden w-10 h-10 items-center justify-center rounded-full bg-primary p-2 hover:animate-pulse">
+    <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" >
+        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />
+    </svg>
+    </a>
+    <!-- Back to top End -->
+
+    <script src="src/assets/style/js/index-c0c31320795846.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".preview", {
+            cssMode: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            mousewheel: true,
+            keyboard: true,
+            });
+    </script>
+</body>
+</html>

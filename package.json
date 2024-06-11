@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/assets/style/css/index-c0c31320795877.css -o ./src/assets/style/css/index-c0c31320795846.css --watch"
+  },
   "devDependencies": {
     "tailwindcss": "^3.4.4"
   }
