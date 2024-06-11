@@ -652,11 +652,6 @@ video {
   order: 2;
 }
 
-.mx-20{
-  margin-left: 5rem;
-  margin-right: 5rem;
-}
-
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -680,6 +675,11 @@ video {
 .my-52{
   margin-top: 13rem;
   margin-bottom: 13rem;
+}
+
+.mx-20{
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
 .-ml-0{
