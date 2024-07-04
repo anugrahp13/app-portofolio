@@ -11,6 +11,7 @@ module.exports = {
     './temusolusi.html',
     './src/components/**/*.{html,js}',
     './pages/**/*.{html,js}',
+    "./node_modules/flowbite/**/*.js",
   ],
   darkMode: 'class',
   theme: {
@@ -31,6 +32,8 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+  ],
 }
 

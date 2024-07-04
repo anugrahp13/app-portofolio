@@ -24,3 +24,76 @@ body {
 .case_information {
     @apply justify-center lg:justify-between;
 }
+
+/* 
+pre[class*="language-"] {
+    margin: 5px 0;
+    padding: 1.75rem 0 1.75rem 1rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+pre[class*="language-"] button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 0.9rem;
+    background-color: #828282;
+    border: ridge 1px #7b7b7c;
+    border-radius: 5px;
+    text-shadow: #c4c4c4;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+} */
+/* pre {
+    background-color: rgb(38, 38, 48);
+    overflow-x: auto;
+    overflow-y: hidden;
+    border-radius: .4rem;
+    -webkit-border-radius: .4rem;
+    -moz-border-radius: .4rem;
+    -ms-border-radius: .4rem;
+    -o-border-radius: .4rem;
+}
+
+pre::-webkit-scrollbar {
+    width: .4rem;
+    height: .4rem;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+}
+
+pre::-webkit-scrollbar-thumb {
+    height: .4rem;
+    background-color: rgb(255, 40, 113);
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+}
+
+.variabel, .function {
+    color: rgb(74, 225, 255);
+}
+
+.string {
+    color: rgb(255, 237, 92);
+}
+
+.operator {
+    color: rgb(255, 40, 113);
+}
+
+code {
+    color: #fff;
+    font-size: 1.1rem;
+} */
