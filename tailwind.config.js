@@ -12,9 +12,9 @@ module.exports = {
     './notes.html',
     './commit_github.html',
     './first_commit_github.html',
+    './dark_mode_tailwindcss.html',
     './src/components/**/*.{html,js}',
     './pages/**/*.{html,js}',
-    "./node_modules/flowbite/**/*.js",
   ],
   darkMode: 'class',
   theme: {
