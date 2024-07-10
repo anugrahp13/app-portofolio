@@ -90,7 +90,8 @@
                 <h1 class="text-center text-sm text-primary dark:text-primary">
                     <span class="block font-bold text-dark text-4xl lg:text-5xl dark:text-white aos-init aos-animate" data-aos="fade-down" data-aos-duration="1000">First Commit GitHub</span>
                 </h1>
-                <h2 class="font-medium text-slate-800 text-base text-center dark:text-slate-200 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">When establishing a repository on Github, the initial commit</h2>
+                <h2 class="font-semibold text-slate-800 text-base text-center dark:text-slate-200 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">When establishing a repository on Github, the initial commit</h2>
+                <span class="font-medium text-slate-800 text-base dark:text-slate-200 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">Make use of this initial global configuration to avoid being prompted to enter your username and email when you submit the changes.</span>
                 <div class="relative bg-gray-900 rounded-lg shadow-md text-white overflow-y-auto">
                     <button id="copy-button" class="absolute top-0 right-0 m-2 border-none cursor-pointer text-white py-2 px-2 rounded-lg text-sm flex gap-2">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-copy">
@@ -102,7 +103,20 @@
                     </button>
                     <pre class="whitespace-pre-wrap"><code id="code-snippet">
 git config --global user.name "your user"
-git config --global user.email "your email"
+git config --global user.email "your email"</code></pre>
+                </div>
+                <span class="font-medium text-slate-800 text-base dark:text-slate-200 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">After utilizing the global configuration above, you can use this one.
+                </span>
+                <div class="relative bg-gray-900 rounded-lg shadow-md text-white overflow-y-auto">
+                    <button id="copy-button-second" class="absolute top-0 right-0 m-2 border-none cursor-pointer text-white py-2 px-2 rounded-lg text-sm flex gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-copy">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M7 7m0 2.667a2.667 2.667 0 0 1 2.667 -2.667h8.666a2.667 2.667 0 0 1 2.667 2.667v8.666a2.667 2.667 0 0 1 -2.667 2.667h-8.666a2.667 2.667 0 0 1 -2.667 -2.667z" />
+                            <path d="M4.012 16.737a2.005 2.005 0 0 1 -1.012 -1.737v-10c0 -1.1 .9 -2 2 -2h10c.75 0 1.158 .385 1.5 1" />
+                        </svg>
+                        Copy
+                    </button>
+                    <pre class="whitespace-pre-wrap"><code id="code-snippet-second">
 git init
 git add .
 git commit -m "first commit"
