@@ -1,3 +1,20 @@
+//Navbar Fixed
+window.onscroll = function() {
+    const header = document.querySelector('header');
+    const fixedNav = header.offsetTop;
+    const toTop = document.querySelector('#totop');
+
+    if(window.pageYOffset > fixedNav){
+        header.classList.add('navbar-fixed');
+        toTop.classList.remove('hidden');
+        toTop.classList.add('flex');
+    } else {
+        header.classList.remove('navbar-fixed');
+        toTop.classList.add('hidden');
+        toTop.classList.remove('flex');
+    }
+}
+
 // Bars
 const bars = document.querySelector('#bars');
 const sidebarMenu = document.querySelector('#sidebar');
@@ -168,19 +185,4 @@ copyButtonSecond.addEventListener('click', () => {
     });
 });
 
-//Navbar Fixed
-window.onscroll = function() {
-    const header = document.querySelector('header');
-    const fixedNav = header.offsetTop;
-    const toTop = document.querySelector('#totop');
 
-    if(window.pageYOffset > fixedNav){
-        header.classList.add('navbar-fixed');
-        toTop.classList.remove('hidden');
-        toTop.classList.add('flex');
-    } else {
-        header.classList.remove('navbar-fixed');
-        toTop.classList.add('hidden');
-        toTop.classList.remove('flex')
-    }
-}
