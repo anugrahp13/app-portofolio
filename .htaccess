@@ -1,0 +1,13 @@
+Options +FollowSymlinks
+RewriteEngine on
+RewriteRule ^/$ index.html [nc],
+RewriteRule ^about$ about.html [nc],
+RewriteRule ^projects$ projects.html [nc],
+RewriteRule ^contact$ contact.html [nc],
+RewriteRule ^temusolusi$ temusolusi.html [nc],
+RewriteRule ^portfolio$ portfolio.html [nc],
+RewriteRule ^bolangtravel$ bolangtravel.html [nc],
+RewriteRule ^notes$ notes.html [nc],
+RewriteRule ^commit_github$ commit_github.html [nc],
+RewriteRule ^first_commit_github$ first_commit_github.html [nc],
+RewriteRule ^dark_mode_tailwindcss$ dark_mode_tailwindcss.html [nc]
