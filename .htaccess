@@ -12,4 +12,6 @@ RewriteRule ^pokedex$ pokedex.html [nc],
 RewriteRule ^notes$ notes.html [nc],
 RewriteRule ^commit_github$ commit_github.html [nc],
 RewriteRule ^first_commit_github$ first_commit_github.html [nc],
-RewriteRule ^dark_mode_tailwindcss$ dark_mode_tailwindcss.html [nc]
+RewriteRule ^dark_mode_tailwindcss$ dark_mode_tailwindcss.html [nc],
+RewriteRule ^comparison_operator$ comparison_operator.html [nc],
+RewriteRule ^logical_operator$ logical_operator.html [nc]
